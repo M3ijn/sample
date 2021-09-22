@@ -1,0 +1,57 @@
+body{
+	margin: 1%;
+	padding:1%;
+	background-color: #4169E1;
+	font-size: 12px;
+	min-width: 500px;
+}
+header, footer{
+    background: -moz-linear-gradient(top, #B0E0E6 0%, #FFA500 100%);
+	background: -webkit-linear-gradient(#B0E0E6 0%, #FFA500100%);
+	background: -o-linear-gradient(#B0E0E6 0%, #FFA500 100%);
+	background: linear-gradient(#B0E0E6 0%, #FFA500 100%); 
+    padding: 1%;
+    margin: 1%;
+}
+header h1{
+	text-align: center;
+	padding-bottom: 15px;
+}
+h1{
+	text-align: center;
+	color: #FFFFFF;
+}
+nav{
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 150%;
+}
+nav a{
+	display: inline-block;
+	background-color: #ffffff;
+	width:22%;
+}
+.myClass{
+	margin: 0em 1em;
+	padding:.75em;
+	border: 1px solid black;
+	border-radius: .25%;
+	-webkit-column-count:3;
+	-moz-column-count: 3;
+	column-count:3;
+    2font-size: 1em;
+}
+ol{
+	list-style:upper-roman; 
+	margin:1em;
+}
+img{
+	display: none;
+}
+footer{
+	clear: both;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
